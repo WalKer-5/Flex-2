@@ -1,0 +1,135 @@
+/*Header Styles*/
+.header{
+    background-image: url("../Photos/Header-Background-Image.png");
+    height: 900px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    width: 1070px;
+    margin: 0 auto;
+}
+/*Display Flex Property*/
+.flex{
+    display: flex;
+}
+.items {
+    justify-content: space-between;
+    align-items: center;
+}
+.align{
+    flex-direction: column;
+}
+.list{
+    margin: 0px 0px 0px 30px;
+}
+.list-a{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+.list-a:hover{
+    color: chartreuse;
+    font-size: 16px;
+}
+.h-container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.h1-text{
+    font-size: 100px;
+    color: darkorange;
+}
+/*First Section Styles*/
+.left-container , .right-container {
+    width: 50%;
+    height: 601px;
+}
+.left-container{
+    align-items: center;
+    justify-content: center;
+}
+.right-container{
+    background-image: url("../Photos/right-container.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 601px;
+}
+.left-container p {
+    width: 468px;
+}
+.first-p{
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+.p-2{
+    font-size: 16px;   
+}
+.button{
+    font-size: 14px;
+    color: wheat;
+    background-color: #325DFF;
+    width: 307px;
+    height: 72px;
+    border-radius: 36px;
+    margin-top: 76px;
+    outline: none;
+}
+/*Section #2 Syles*/
+.section-2{
+    margin: 90px 0 114px 0;
+}
+.main-box{
+    width: 1171px;
+    margin: 0 auto;
+}
+.text-box{
+    width: 771px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-box h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.text-box p{
+    font-size: 16px;
+}
+/*Section2 BOXS*/
+.line-1{
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.boxs{
+    width: 371px;
+    height: 374px;
+    border: solid 0.5px #CECECE;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.boxs h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 26px;
+}
+.p-div{
+    width: 251px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.circle{
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+    background-color: #325DFF;
+    padding: 28px 28px;
+}
